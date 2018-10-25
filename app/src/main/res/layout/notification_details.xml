@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notification_details_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:background="@color/white_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/not_close"
+            android:background="@drawable/button_close_selector"
+            android:layout_gravity="right"
+            android:layout_marginBottom="15dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <!-- Renter Images -->
+        <ImageView
+            android:id="@+id/not_renter_photo"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <!-- Renter Name -->
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Renter Name :"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/not_renter_name"
+                android:textColor="@color/deep_grey_color"
+                android:text="Anonymous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Marital Status -->
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Marital Status :"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/not_renter_marital_status"
+                android:textColor="@color/deep_grey_color"
+                android:text="Unmarried"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- occupation -->
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Occupation :"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/not_renter_occupation"
+                android:textColor="@color/deep_grey_color"
+                android:text="Student"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Mobile Number -->
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Mobile Number :"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/not_renter_mobile"
+                android:textColor="@color/deep_grey_color"
+                android:text="+8801914141707"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Address -->
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Address :"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/not_renter_address"
+                android:textColor="@color/deep_grey_color"
+                android:text="+8801914141707"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <!-- ================================== -->
+        <View
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/medium_grey_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <!-- ================================== -->
+
+        <!-- Owner Name -->
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Owner Name :"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/not_owner_name"
+                android:textColor="@color/deep_grey_color"
+                android:text="Anonymous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Owner Ad -->
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Owner Ad Type :"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/not_owner_ad_type"
+                android:textColor="@color/deep_grey_color"
+                android:text="Apartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Accept and Reject Button -->
+        <Button
+            android:id="@+id/not_call"
+            android:text="@string/details_call"
+            android:textColor="@color/white_color"
+            android:background="@color/dark_grey_color"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

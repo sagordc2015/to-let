@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="15dp"
+    android:background="@color/white_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adpost.PostsListActivity">
+
+    <!--<android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/add_new_post_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:foregroundGravity="bottom"
+        android:clickable="true"
+        android:src="@drawable/ic_add_black_24dp"
+        app:backgroundTint="@color/dark_grey_color"
+        app:borderWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+
+    <Button
+        android:id="@+id/add_new_post_btn"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/post_add_post"
+        android:textColor="@color/dark_grey_color"
+        android:background="@drawable/button_round_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/posts_list_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</RelativeLayout>

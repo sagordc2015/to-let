@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings_id"
+            android:title="@string/settings_title"
+            android:icon="@drawable/ic_settings_black_24dp" />
+        <item
+            android:id="@+id/profile_id"
+            android:title="@string/profile_title"
+            android:icon="@drawable/ic_people_black_24dp" />
+        <item
+            android:id="@+id/post_ad_id"
+            android:title="@string/post_ad_title"
+            android:icon="@drawable/ic_add_black_24dp" />
+        <item
+            android:id="@+id/notice_id"
+            android:title="@string/notification_title"
+            android:icon="@drawable/ic_add_alert_black_24dp" />
+        <item
+            android:id="@+id/favorite_id"
+            android:title="@string/favorite_title"
+            android:icon="@drawable/ic_favorite_black_24dp" />
+        <item
+            android:id="@+id/about_id"
+            android:title="@string/about_title"
+            android:icon="@drawable/ic_info_outline_black_24dp" />
+        <!--<item
+            android:id="@+id/maps_id"
+            android:title="Google Maps"
+            android:icon="@drawable/ic_info_outline_black_24dp" />-->
+        <item
+            android:id="@+id/log_out"
+            android:title="@string/log_out_title"
+            android:icon="@drawable/ic_exit_to_app_black_24dp" />
+    </group>
+
+    <!--<group>
+        <item
+            android:fontFamily="@font/social_media_font"
+            android:title="f"
+            android:textColor="@color/dark_grey_color"
+            android:textSize="50sp"/>
+        <item
+            android:fontFamily="@font/social_media_font"
+            android:title="t"
+            android:textColor="@color/dark_grey_color"
+            android:textSize="50sp"/>
+        <item
+            android:fontFamily="@font/social_media_font"
+            android:title="y"
+            android:textColor="@color/dark_grey_color"
+            android:textSize="50sp"/>
+    </group>-->
+</menu>
